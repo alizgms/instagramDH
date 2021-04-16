@@ -8,19 +8,18 @@
   outline: 0 !important;
 }
 html,
-body,
-#root {
+body {
   height: 100%;
 }
 body {
   line-height: 1.43 !important;
-  background: #f1f4f6;
+  background: #FAFAFA;
   -webkit-font-smoothing: antialiased;
 }
 body,
 input,
 button {
-  font: 14px "Roboto", sans-serif;
+  font: 14px "Montserrat", sans-serif;
 }
 a {
   text-decoration: none !important;
@@ -38,7 +37,83 @@ hr {
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-header img {
-border-radius: 1000px;
-width: 40px;
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  background-color: white;
+  border: 1px solid #dbdbdb;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+header > img {
+  width: 16px;
+}
+
+header div img {
+  width: 32px;
+  border-radius: 20px;
+}
+
+header div {
+  display: flex;
+  align-items: center;
+}
+
+header div a {
+  margin-left: 12px;
+}
+
+body {
+  width: 640px;
+  margin: 5px auto;
+}
+
+.foto img {
+  width: 100%;
+}
+
+.reacoes {
+  display: flex;
+  justify-content: space-between;
+}
+
+.curtiu img {
+  width: 20px;
+  border-radius: 10px;
+  margin-right: 8px;
+}
+
+.curtiu {
+  display: flex;
+  margin-bottom: 8px;
+}
+
+.interacoes {
+  padding: 0px 16px;
+  background-color: white;
+  border: 1px solid #dbdbdb;
+  border-top: 0;
+  margin-top: -5px;
+  padding-top: 5px;
+}
+
+.descricao {
+  margin-bottom: 4px;
+}
+
+.comentario {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 4px;
+}
+
+.comentario img {
+  width: 12px;
+}
+
+.tempo {
+  font-size: 10px;
+  color: #8e8e8e;
 }
